@@ -53,7 +53,7 @@ void reconnect() {
 
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   pinMode(PIR_PIN, INPUT);
 
   WiFi.begin(ssid, password);
